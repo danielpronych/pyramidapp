@@ -9,6 +9,7 @@ with open(os.path.join(here, 'CHANGES.txt')) as f:
     CHANGES = f.read()
 
 requires = [
+    'matplotlib==1.4.3',
     'pyramid',
     'pyramid_chameleon',
     'pyramid_debugtoolbar',
